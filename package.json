@@ -1,0 +1,19 @@
+{
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server":"live-server",
+    "buildCss": "tailwindcss build src/index.css -o  dist/index.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "live-server": "^1.2.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.1.4"
+  }
+}
